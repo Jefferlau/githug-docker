@@ -1,0 +1,8 @@
+version: '3.2'
+
+services:
+  gitbucket-server:
+    image: jefferlau/githug
+    build: .
+    restart: always
+    container_name: githug
