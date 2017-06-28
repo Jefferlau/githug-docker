@@ -76,7 +76,7 @@ Tasks:
 ```
 
 
-# Docker-Compose
+~~# Docker-Compose
 
 编辑你的 docker-compose.yml 文件，然后使用 ``docker-compose`` 运行这个容器：
 
@@ -92,3 +92,4 @@ docker-compose start
 # 停止并移除容器
 docker-compose down
 ```
+~~
