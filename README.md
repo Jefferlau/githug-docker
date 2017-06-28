@@ -76,20 +76,20 @@ Tasks:
 ```
 
 
-~~# Docker-Compose
+~~# Docker-Compose~~
 
-编辑你的 docker-compose.yml 文件，然后使用 ``docker-compose`` 运行这个容器：
+~~编辑你的 docker-compose.yml 文件，然后使用 ``docker-compose`` 运行这个容器：~~
 
-```bash
-# 创建并启动容器
-docker-compose up -d
-# 连接容器命令行
-docker exec -it githug /bin/bash
-# 停止
-docker-compose stop
-# 启动
-docker-compose start
-# 停止并移除容器
-docker-compose down
-```
-~~
+~~\`\`\`bash~~
+~~# 创建并启动容器~~
+~~docker-compose up -d~~
+~~# 连接容器命令行~~
+~~docker exec -it githug /bin/bash~~
+~~# 停止~~
+~~docker-compose stop~~
+~~# 启动~~
+~~docker-compose start~~
+~~# 停止并移除容器~~
+~~docker-compose down~~
+~~\`\`\`~~
+
