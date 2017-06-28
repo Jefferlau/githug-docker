@@ -29,11 +29,10 @@ docker build -t jefferlau/githug .
 [https://docs.docker.com/docker-cloud/builds/push-images/]()
 
 ```bash
-# tag lastest
-docker tag githug jefferlau/githug
+# Push lastest
 docker push jefferlau/githug
-# tag githug version 0.5.0
-docker tag githug jefferlau/githug:0.5.0
+# Tag githug version 0.5.0
+docker tag jefferlau/githug jefferlau/githug:0.5.0
 docker push jefferlau/githug:0.5.0
 ```
 
